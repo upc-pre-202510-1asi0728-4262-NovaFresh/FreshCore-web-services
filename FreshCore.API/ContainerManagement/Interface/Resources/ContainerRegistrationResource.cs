@@ -1,0 +1,7 @@
+namespace FreshCore.API.ContainerManagement.Interface.Resources
+{
+    public record ContainerRegistrationResource(
+		int Id,
+		string Uiid
+	);
+}
